@@ -1,0 +1,32 @@
+
+·         cakePHP
+
+·         jquery dataTables tableSOrt
+
+·         overlay fancybox
+
+ 
+
+Functional Requirements
+
+ 
+
+1)      Create model, controller, view for the provided DB
+
+2)      Create a basic dataTable page similar to the screenshot below but full page width (no left hand/right hand sections required.
+
+a.       I will integrate this into our application after you provide it.
+
+3)      Have option to edit certain fields in table
+
+4)      Have option to click certain fields to open a fancybox overlay where longer text can be read/edited.
+
+a.       Please don’t spend time styling as I will give feedback after you have delivered something.
+
+5)      Implement pagination format as shown below  
+
+Data
+
+I have provided a sql script to create the tables. You will need to create any additional test data.
+ 
+Screenshots (reference data)
