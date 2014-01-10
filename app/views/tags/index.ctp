@@ -32,10 +32,9 @@
 			<td><?php echo $tag['Tag']['modified']; ?>&nbsp;</td>
 			<td><?php echo $tag['Tag']['modifiedBy']; ?>&nbsp;</td>
 			<td><?php echo $tag['Tag']['status']; ?>&nbsp;</td>
-			<td class="actions">
-				<?php echo $this->Html->link(__('View', true), array('action' => 'view', $tag['Tag']['id']), array('class' => 'btn btn-info')); ?>
-				<?php echo $this->Html->link(__('Edit', true), array('action' => 'edit', $tag['Tag']['id']), array('class' => 'btn btn-inverse')); ?>
-				<?php echo $this->Html->link(__('Delete', true), array('action' => 'delete', $tag['Tag']['id']),  array('class' => 'btn btn-danger'), sprintf(__('Are you sure you want to delete # %s?', true), $tag['Tag']['id'])); ?>
+			<td class="actions span2">
+				<?php echo $this->Html->link(__('View', true), array('action' => 'view', $tag['Tag']['id']), array('class' => 'btn btn-info btn-mini')); ?>				
+				<?php echo $this->Html->link(__('Delete', true), array('action' => 'delete', $tag['Tag']['id']),  array('class' => 'btn btn-danger btn-mini'), sprintf(__('Are you sure you want to delete # %s?', true), $tag['Tag']['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
