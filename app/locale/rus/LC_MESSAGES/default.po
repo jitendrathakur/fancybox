@@ -1,0 +1,314 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: test\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.3\n"
+
+#: /controllers/potentries_controller.php:15;39
+msgid "Invalid potentry"
+msgstr ""
+
+#: /controllers/potentries_controller.php:27;44
+msgid "The potentry has been saved"
+msgstr ""
+
+#: /controllers/potentries_controller.php:30;47
+msgid "The potentry could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/potentries_controller.php:59
+msgid "Invalid id for potentry"
+msgstr ""
+
+#: /controllers/potentries_controller.php:63
+msgid "Potentry deleted"
+msgstr ""
+
+#: /controllers/potentries_controller.php:66
+msgid "Potentry was not deleted"
+msgstr ""
+
+#: /controllers/tags_controller.php:19;39
+msgid "Invalid tag"
+msgstr ""
+
+#: /controllers/tags_controller.php:29;44
+msgid "The tag has been saved"
+msgstr ""
+
+#: /controllers/tags_controller.php:32;47
+msgid "The tag could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/tags_controller.php:57
+msgid "Invalid id for tag"
+msgstr ""
+
+#: /controllers/tags_controller.php:61
+msgid "Tag deleted"
+msgstr ""
+
+#: /controllers/tags_controller.php:64
+msgid "Tag was not deleted"
+msgstr ""
+
+#: /controllers/transentries_controller.php:15;39
+msgid "Invalid transentry"
+msgstr ""
+
+#: /controllers/transentries_controller.php:27;44
+msgid "The transentry has been saved"
+msgstr ""
+
+#: /controllers/transentries_controller.php:30;47
+msgid "The transentry could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/transentries_controller.php:59
+msgid "Invalid id for transentry"
+msgstr ""
+
+#: /controllers/transentries_controller.php:63
+msgid "Transentry deleted"
+msgstr ""
+
+#: /controllers/transentries_controller.php:66
+msgid "Transentry was not deleted"
+msgstr ""
+
+#: /views/elements/navbar.ctp:13
+msgid "Tag list"
+msgstr ""
+
+#: /views/elements/navbar.ctp:16 /views/potentries/edit.ctp:23
+#: /views/potentries/view.ctp:49 /views/transentries/edit.ctp:24
+#: /views/transentries/view.ctp:59
+msgid "New Tag"
+msgstr ""
+
+#: /views/potentries/add.ctp:4
+msgid "Add Potentry"
+msgstr ""
+
+#: /views/potentries/edit.ctp:4 /views/potentries/view.ctp:44
+msgid "Edit Potentry"
+msgstr ""
+
+#: /views/potentries/edit.ctp:14 /views/tags/edit.ctp:15
+#: /views/transentries/edit.ctp:15
+msgid "Submit"
+msgstr ""
+
+#: /views/potentries/edit.ctp:17 /views/potentries/index.ctp:12
+#: /views/potentries/view.ctp:42 /views/tags/edit.ctp:18
+#: /views/tags/index.ctp:34 /views/tags/view.ctp:64;114
+#: /views/transentries/edit.ctp:18 /views/transentries/index.ctp:14
+#: /views/transentries/view.ctp:52
+msgid "Actions"
+msgstr ""
+
+#: /views/potentries/edit.ctp:20 /views/potentries/index.ctp:35
+#: /views/tags/edit.ctp:21 /views/tags/index.ctp:57
+#: /views/tags/view.ctp:86;138 /views/transentries/edit.ctp:21
+#: /views/transentries/index.ctp:39
+msgid "Delete"
+msgstr ""
+
+#: /views/potentries/edit.ctp:20 /views/potentries/index.ctp:35
+#: /views/potentries/view.ctp:45 /views/tags/edit.ctp:21
+#: /views/tags/index.ctp:57 /views/tags/view.ctp:86;138
+#: /views/transentries/edit.ctp:21 /views/transentries/index.ctp:39
+#: /views/transentries/view.ctp:55
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: /views/potentries/edit.ctp:21 /views/potentries/view.ctp:46
+#: /views/tags/edit.ctp:23
+msgid "List Potentries"
+msgstr ""
+
+#: /views/potentries/edit.ctp:22 /views/potentries/view.ctp:48
+#: /views/tags/edit.ctp:22 /views/transentries/edit.ctp:23
+#: /views/transentries/view.ctp:58
+msgid "List Tags"
+msgstr ""
+
+#: /views/potentries/index.ctp:2
+msgid "Potentries"
+msgstr ""
+
+#: /views/potentries/index.ctp:33 /views/tags/index.ctp:56
+#: /views/tags/view.ctp:84;136 /views/transentries/index.ctp:37
+msgid "View"
+msgstr ""
+
+#: /views/potentries/index.ctp:34 /views/tags/view.ctp:85;137
+#: /views/transentries/index.ctp:38
+msgid "Edit"
+msgstr ""
+
+#: /views/potentries/index.ctp:43 /views/transentries/index.ctp:47
+msgid ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
+msgstr ""
+
+#: /views/potentries/index.ctp:48 /views/transentries/index.ctp:52
+msgid "previous"
+msgstr ""
+
+#: /views/potentries/index.ctp:51 /views/transentries/index.ctp:55
+msgid "next"
+msgstr ""
+
+#: /views/potentries/view.ctp:2
+msgid "Potentry"
+msgstr ""
+
+#: /views/potentries/view.ctp:4 /views/tags/view.ctp:4;57;105
+#: /views/transentries/view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: /views/potentries/view.ctp:9 /views/tags/view.ctp:2
+#: /views/transentries/view.ctp:9
+msgid "Tag"
+msgstr ""
+
+#: /views/potentries/view.ctp:14 /views/tags/view.ctp:59
+msgid "Page"
+msgstr ""
+
+#: /views/potentries/view.ctp:19 /views/tags/view.ctp:60
+msgid "Linenumber"
+msgstr ""
+
+#: /views/potentries/view.ctp:24 /views/tags/view.ctp:24;61;109
+#: /views/transentries/view.ctp:24
+msgid "Created"
+msgstr ""
+
+#: /views/potentries/view.ctp:29 /views/tags/view.ctp:29;62;110
+#: /views/transentries/view.ctp:29
+msgid "CreatedBy"
+msgstr ""
+
+#: /views/potentries/view.ctp:34 /views/tags/view.ctp:44;63;113
+#: /views/transentries/view.ctp:44
+msgid "Status"
+msgstr ""
+
+#: /views/potentries/view.ctp:45
+msgid "Delete Potentry"
+msgstr ""
+
+#: /views/potentries/view.ctp:47 /views/tags/edit.ctp:24
+#: /views/tags/view.ctp:96
+msgid "New Potentry"
+msgstr ""
+
+#: /views/tags/add.ctp:4
+msgid "Add Tag"
+msgstr ""
+
+#: /views/tags/edit.ctp:4
+msgid "Edit Tag"
+msgstr ""
+
+#: /views/tags/edit.ctp:25 /views/transentries/edit.ctp:22
+#: /views/transentries/view.ctp:56
+msgid "List Transentries"
+msgstr ""
+
+#: /views/tags/edit.ctp:26 /views/tags/view.ctp:148
+#: /views/transentries/view.ctp:57
+msgid "New Transentry"
+msgstr ""
+
+#: /views/tags/index.ctp:2
+msgid "This is only a test message"
+msgstr ""
+
+#: /views/tags/index.ctp:6
+msgid "Regular link"
+msgstr "divya"
+
+#: /views/tags/index.ctp:10
+msgid "Regular link two"
+msgstr ""
+
+#: /views/tags/index.ctp:22
+msgid "Tags"
+msgstr "Метки"
+
+#: /views/tags/view.ctp:9
+msgid "Original Tag"
+msgstr ""
+
+#: /views/tags/view.ctp:14
+msgid "Type"
+msgstr ""
+
+#: /views/tags/view.ctp:19
+msgid "Comment"
+msgstr ""
+
+#: /views/tags/view.ctp:34;111 /views/transentries/view.ctp:34
+msgid "Modified"
+msgstr ""
+
+#: /views/tags/view.ctp:39;112 /views/transentries/view.ctp:39
+msgid "ModifiedBy"
+msgstr ""
+
+#: /views/tags/view.ctp:53
+msgid "Related Potentries"
+msgstr ""
+
+#: /views/tags/view.ctp:58;106
+msgid "Tag Id"
+msgstr ""
+
+#: /views/tags/view.ctp:101
+msgid "Related Transentries"
+msgstr ""
+
+#: /views/tags/view.ctp:107 /views/transentries/view.ctp:14
+msgid "Language"
+msgstr ""
+
+#: /views/tags/view.ctp:108 /views/transentries/view.ctp:19
+msgid "Translation"
+msgstr ""
+
+#: /views/transentries/add.ctp:4
+msgid "Add Transentry"
+msgstr ""
+
+#: /views/transentries/edit.ctp:4 /views/transentries/view.ctp:54
+msgid "Edit Transentry"
+msgstr ""
+
+#: /views/transentries/index.ctp:2
+msgid "Transentries"
+msgstr ""
+
+#: /views/transentries/view.ctp:2
+msgid "Transentry"
+msgstr ""
+
+#: /views/transentries/view.ctp:55
+msgid "Delete Transentry"
+msgstr ""
+
+#: /webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""

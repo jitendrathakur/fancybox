@@ -34,6 +34,25 @@
  */
 class AppController extends Controller {
 
+    var $components = array('Session', 'Cookie');
+
+    function beforeFilter() {
+        $this->_setLanguage();
+    }
+
+    function _setLanguage() {
+
+        if ($this->Cookie->read('lang') && !$this->Session->check('Config.language')) {
+            $this->Session->write('Config.language', $this->Cookie->read('lang'));
+        }
+        else if (isset($this->params['language']) && ($this->params['language']
+                 !=  $this->Session->read('Config.language'))) {
+
+            $this->Session->write('Config.language', $this->params['language']);
+            $this->Cookie->write('lang', $this->params['language'], false, '20 days');
+        }
+    }
+
     public function beforeRender() {
       $this->set(
           'twitterBootstrapCreateOptions', 

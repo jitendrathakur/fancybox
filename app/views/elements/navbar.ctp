@@ -15,6 +15,18 @@
               <li class="">
                 <?php echo $this->Html->link(__('New Tag', true), array('controller' => 'tags', 'action' => 'add'));?>
               </li>
+              <li>
+                <?php echo $this->Html->image('flag/usa.png', array('url' => array('controller' => 'tags', 'action' => 'index', 'language'=>'eng'))); ?>
+              </li>
+              <li>
+                <?php echo $this->Html->image('flag/jpn.png', array('url' => array('controller' => 'tags', 'action' => 'index', 'language'=>'jpn'))); ?>
+              </li>
+              <li>
+                <?php echo $this->Html->image('flag/ind.png', array('url' => array('controller' => 'tags', 'action' => 'index', 'language'=>'hin'))); ?>
+              </li>
+              <li>
+                <?php echo $this->Html->image('flag/rus.png', array('url' => array('controller' => 'tags', 'action' => 'index', 'language'=>'rus'))); ?>
+              </li>
               
             </ul>
           </div>

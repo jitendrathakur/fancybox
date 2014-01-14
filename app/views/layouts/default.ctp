@@ -1,9 +1,7 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php echo $html->css(array('bootstrap', 'style', 'jquery.fancybox')) ?>
 <?php echo $html->script(array('jquery-1.8.3.min', 'jquery.dataTables', 'datatables.bootstrap', 'jquery.fancybox', 'custom')) ?>
 
